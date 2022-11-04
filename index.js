@@ -5,6 +5,8 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import postRoutes from "./routes/posts";
 
+import postRoutes from "./routes/posts.js";
+
 dotenv.config();
 const app = express();
 
